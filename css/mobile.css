@@ -1,0 +1,154 @@
+@media screen and (max-width: 981px) {
+
+    div.top_navigation p.logo_title {
+        font-size: 20px !important;
+        margin: 20px 24px !important;
+        float: left;
+        font-weight: bold;
+    }
+    
+    div.top_navigation ul {
+        float: right;
+        margin: 24px 24px !important;
+        display: none;
+    }
+
+    div.hero_section {
+        clear: both;
+        box-sizing: border-box;
+        padding: 0px;
+        width: 100%;
+        background-size: 100%;
+        float: left;
+        position: relative;
+        height: 55%;
+    }
+
+    
+div.hero_section div.hero_section_right {
+    color: #000;
+    z-index: 100;
+    margin: 24px;
+    text-align: right;
+    width: calc(100% - 48px);
+    margin-top: 50%;
+}
+
+    div.hero_section div.hero_section_right h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    
+div.about_section h1.label {
+    opacity: 0.2;
+    font-size: 54px;
+}
+div.body_container {
+    float: left;
+    width: 100%;
+    background: #121212 !important;
+}
+div.about_section {
+    color: white;
+    left: 24px !important;
+    right: 24px;
+    margin: 24px auto;
+    width: calc(100% - 58px);
+}
+
+
+div.about_section p {
+    margin-top: 24px;
+    font-weight: 400;
+    width: 100%;
+}
+
+div.about_section_left {
+    float: left;
+    width: 100%;
+}
+
+
+div.about_section_right {
+    float: left !important;
+    margin-top: 58px;
+    width: 100%;
+}
+
+
+div.about_section_right div.about_section_right_image {
+    height: 540px;
+    width: 100%;
+    background-image: url(img/IMG_9196.JPG);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+    right: 0px;
+    float: left;
+}
+
+div.work_grid {
+    float: left;
+    width: inherit;
+    margin-bottom: 0px;
+}
+
+div#one_one {
+    height: calc(100vh / 2.5);
+    width: 100%;
+    background-color: #333;
+    float: left;
+    margin: 24px 0px !important;
+    background-position:center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+div.two_one {
+    height: calc(100vh / 2.5);
+    width: 100%;
+    background-color: #333;
+    float: left;
+    margin: 0px !important;
+    background-position:center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+div.two_one:last-child {
+    margin-right: 0px;
+    width: 100%;
+}
+
+div.two_one:first-child {
+    margin-left: 0px;
+    width: 100%;
+}
+
+
+div.left_button {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+
+div.right_button {
+    float: left;
+    width: 100%;
+    text-align: center;   
+}
+
+
+
+div.right_button a {
+    float: left;
+    color: #999;
+    width: 100%;
+    text-align: center;
+    margin-top: 32px;
+}
+
+
+}

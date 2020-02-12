@@ -1,0 +1,265 @@
+* {
+    font-family: poppins;
+    margin: 0px;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+p {
+    font-size: 16px;
+}
+
+body {
+    background: #121212;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff
+}
+
+li {
+    list-style: none;
+}
+
+div.top_navigation {
+    background-color: #121212;
+    color: white;
+    float: left;
+    width: 100%;
+    z-index: 10;
+}
+
+div.top_navigation p.logo_title {
+    font-size: 32px;
+    margin: 20px 240px;
+    float: left;
+    font-weight: bold;
+}
+
+div.top_navigation ul {
+    float: right;
+    margin: 24px 240px
+}
+
+div.top_navigation ul li.nav_link {
+    float: right;
+    padding: 8px 32px;
+}
+
+div.hero_section {
+    clear: both;
+    box-sizing: border-box;
+    padding: 15% 0px;
+    width: 100%;
+    background-size: 100%;
+    float: left;
+    position: relative;
+}
+
+div.hero_section, div.hero_section:before {
+    background : 50% 50% / cover;
+}
+
+div.hero_section::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top:0;
+    display: block;
+    background-image: url(img/IMG_9196.JPG);
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+}
+
+div.hero_section div.hero_section_right {
+    color: #000;
+    z-index: 100;
+    margin-right: 240px;
+    width: 40%;
+    text-align: right;
+    float: right;
+}
+
+div.hero_section div.hero_section_right h1 {
+    font-size: 46px;
+}
+
+div.about_section h1.label {
+    opacity: 0.2;
+    font-size: 92px;
+}
+div.body_container {
+    float: left;
+    width: 100%;
+    background: #121212 !important;
+}
+div.about_section {
+    color: white;
+    left: 240px;
+    right: 240px;
+    width: calc( 100% - 540px);
+    margin: 24px auto;
+}
+
+div.about_section p {
+    margin-top: 24px;
+    font-weight: 400;
+    width: 85%;
+}
+
+div.about_section_left {
+    float: left;
+    width: 50%;
+}
+
+
+div.about_section_right {
+    position: relative;
+    float: right;
+    margin-top: -124px;
+    width: 50%;
+}
+
+div.about_section_right div.about_section_right_image {
+    height: 540px;
+    width: 75%;
+    background-color: #333333;
+    background-image: url(img/IMG_9196.JPG);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+    right: 0px;
+    float: right;
+
+}
+
+div.about_section_two {
+    margin-top: 64px;
+    float: left;
+    width: 100%;
+    background-image: url(img/IMG1.jpg);
+}
+
+div.about_section_two_image {
+    height: 540px;
+    width: 100%;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+div.works {
+    float: left;
+    width: 100%;
+    margin: 72px 0px;
+}
+div.work_grid {
+    float: left;
+    width: inherit;
+    margin-bottom: 32px;
+}
+div#one_one {
+    height: calc(100vh / 2.5);
+    width: 32%;
+    background-color: #333;
+    float: left;
+    margin:0px 1%;
+    background-position:center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+div#one_one div#project_name{
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-top: 0px;
+}
+
+div#one_one div#project_name:hover {
+    opacity: 1;
+}
+
+p#project {
+    margin-top: 45%;
+    text-align: center;
+    width: 100%;
+}
+
+div#one_one:first-child {
+    margin-left: 0px;
+}
+
+div#one_one:last-child {
+    margin-right: 0px;
+}
+
+
+div.two_one {
+    height: calc(100vh / 2.5);
+    width: 63%;
+    background-color: #333;
+    float: left;
+    margin: 0px 1%;
+    background-position:center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+div.two_one:last-child {
+    margin-right: 0px;
+    width: 66%;
+}
+
+div.two_one:first-child {
+    margin-left: 0px;
+    width: 66%;
+}
+
+div.left_button {
+    float: left;
+}
+
+
+div.right_button {
+    float: right;
+}
+
+
+div.right_button a {
+    float: right;
+    color: #999;
+    right: 0px;
+}
+
+div.right_button a:hover {
+    float: right;
+    color: #fff;
+    right: 0px;
+}
+
+div.divider {
+    height: 1px;
+    width: 100%;
+    background-color: #333;
+    margin-top: 64px;
+    float: inherit;
+}
