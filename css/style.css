@@ -1,6 +1,7 @@
 * {
     font-family: poppins;
     margin: 0px;
+    transition: 400ms 0px ease-in-out;
 }
 
 html {
@@ -103,6 +104,7 @@ div.hero_section div.hero_section_right h1 {
 div.about_section h1.label {
     opacity: 0.2;
     font-size: 92px;
+    transition: 400ms 0px ease-in-out;
 }
 div.body_container {
     float: left;
@@ -140,10 +142,10 @@ div.about_section_right div.about_section_right_image {
     height: 540px;
     width: 75%;
     background-color: #333333;
-    background-image: url(img/IMG_9196.JPG);
+    background-image: url(img/logo.jpg);
     background-size: 100vh;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center center;
     right: 0px;
     float: right;
 
@@ -174,7 +176,7 @@ div.work_grid {
     margin-bottom: 32px;
 }
 div#one_one {
-    height: calc(100vh / 2.5);
+    height: calc(100vh / 2.15);
     width: 32%;
     background-color: #333;
     float: left;
@@ -182,6 +184,7 @@ div#one_one {
     background-position:center center;
     background-size: 100%;
     background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 div#one_one div#project_name{
@@ -192,16 +195,19 @@ div#one_one div#project_name{
     opacity: 0;
     background-color: rgba(0, 0, 0, 0.75);
     margin-top: 0px;
+    transition: 200ms 0px ease-in-out;
 }
 
 div#one_one div#project_name:hover {
     opacity: 1;
+    transition: 200ms 0ms ease-in-out;
 }
 
 p#project {
     margin-top: 45%;
     text-align: center;
     width: 100%;
+    font-size: 20px;
 }
 
 div#one_one:first-child {
@@ -262,4 +268,16 @@ div.divider {
     background-color: #333;
     margin-top: 64px;
     float: inherit;
+}
+
+div.footer {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 54px;
+}
+
+div.footer ul li {
+    margin: 0px 24px;
+    display: inline-grid
 }
